@@ -20,6 +20,7 @@
 		DAA3308F175DC0DD00DEB48A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA3308E175DC0DD00DEB48A /* DetailViewController.m */; };
 		DAA33092175DC0DD00DEB48A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA33090175DC0DD00DEB48A /* MasterViewController.xib */; };
 		DAA33095175DC0DD00DEB48A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA33093175DC0DD00DEB48A /* DetailViewController.xib */; };
+		DABED542175F63760066C0B4 /* human.m in Sources */ = {isa = PBXBuildFile; fileRef = DABED541175F63760066C0B4 /* human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		DAA3308E175DC0DD00DEB48A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		DAA33091175DC0DD00DEB48A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
 		DAA33094175DC0DD00DEB48A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		DABED540175F63760066C0B4 /* human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = human.h; sourceTree = "<group>"; };
+		DABED541175F63760066C0B4 /* human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				DAA33090175DC0DD00DEB48A /* MasterViewController.xib */,
 				DAA33093175DC0DD00DEB48A /* DetailViewController.xib */,
 				DAA33079175DC0DC00DEB48A /* Supporting Files */,
+				DABED540175F63760066C0B4 /* human.h */,
+				DABED541175F63760066C0B4 /* human.m */,
 			);
 			path = timetravel;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				DAA33083175DC0DC00DEB48A /* AppDelegate.m in Sources */,
 				DAA3308C175DC0DD00DEB48A /* MasterViewController.m in Sources */,
 				DAA3308F175DC0DD00DEB48A /* DetailViewController.m in Sources */,
+				DABED542175F63760066C0B4 /* human.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
