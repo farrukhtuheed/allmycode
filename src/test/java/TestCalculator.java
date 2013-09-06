@@ -1,6 +1,5 @@
 
 import junit.framework.TestCase;
-import static org.junit.Assert.*;
 
 public class TestCalculator extends TestCase {
 
@@ -23,6 +22,7 @@ public class TestCalculator extends TestCase {
 	public void testAdd() {
 		assertEquals(calculator.add(2, 2),4);
 		assertEquals(calculator.add(2, 4), 6);
+				assertEquals(calculator.add(2, 5), 7);
 		
 		
 
