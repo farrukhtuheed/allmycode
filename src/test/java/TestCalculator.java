@@ -24,6 +24,11 @@ public class TestCalculator extends TestCase {
 		assertEquals(calculator.add(2, 4), 6);
 		assertEquals(calculator.add(2, 5), 7);
 		assertEquals(calculator.add(2, 6),8);
+		assertEquals(calculator.add(2, 5), 7);
+		
+		
+
+		
 	}
 	
 	public void testSub() {

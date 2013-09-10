@@ -5,18 +5,16 @@ public class Calculator {
 
 		int sum;
 		sum = num1 + num2;
+
 		if ( sum == 6 || sum == 7 || sum == 8){
 			
 			System.out.println("Sum is :" + sum);
 		}
 		
-		/*while (sum >= 7 && sum == 6) {
-			
-			System.out.println("Sum is greater than :" + sum);
-			int rst = sum - 1;
-			System.out.println("Result is greater than :" + rst);
-		}	
-		*/
+	
+		if ( sum == 7 ){
+			System.out.println("Sum is 7");
+		}
 		
 		return sum;
 	}
