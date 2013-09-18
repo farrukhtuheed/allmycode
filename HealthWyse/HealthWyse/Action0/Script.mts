@@ -1,0 +1,10 @@
+﻿Call RunAction("Login", oneIteration)
+Call RunAction("Workflow", oneIteration)
+Call RunAction("Mail", oneIteration)
+Call RunAction("Patients", oneIteration)
+Call RunAction("Add_Book", oneIteration)
+Call RunAction("PatientList", oneIteration)
+Call RunAction("Add Patient", oneIteration)
+Call RunAction("Schedule", oneIteration)
+Call RunAction("DAR", oneIteration)
+RunAction "Quite", oneIteration
